@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>My College</title>
+    <title>UIET College Website</title>
 
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
@@ -10,12 +10,28 @@
     <style>
         .welcome {
             text-align: center;
-            padding: 20px;
-            background-color: #e8f1ff;
+            padding: 40px;
+            background-color: #e6fffa;
         }
 
-        h2 {
-            color: #16425b;
+        .welcome h2 {
+            color: #0f766e;
+            font-size: 30px;
+        }
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        .card {
+            background-color: white;
+            padding: 20px;
+            width: 200px;
+            text-align: center;
+            border-radius: 12px;
         }
     </style>
 </head>
@@ -24,7 +40,7 @@
 
     <header>
         <h1>UIET, Kurukshetra University</h1>
-        <p>Welcome to Our College</p>
+        <p>Institute of Engineering and Technology</p>
     </header>
 
     <nav>
@@ -34,23 +50,43 @@
         <a href="#">Contact</a>
     </nav>
 
-    <div class="welcome">
+    <section class="welcome">
         <h2>Welcome to UIET</h2>
 
         <!-- Inline CSS -->
-        <p style="color: #d35400; font-size: 18px;">
-            Excellence in Engineering and Technology
+        <p style="color: #f97316; font-size: 18px;">
+            Empowering Students Through Technology & Innovation
         </p>
 
         <p>
-            UIET provides quality education and opportunities
-            for students to develop their technical skills.
+            UIET provides quality education, technical knowledge
+            and opportunities for students to build a successful future.
         </p>
 
         <!-- Inline CSS -->
-        <button style="background-color: #16425b; color: white; padding: 10px 20px;">
-            Learn More
+        <button style="background-color: #f97316; color: white; border: none;
+                       padding: 12px 25px; border-radius: 20px;">
+            Explore More
         </button>
+    </section>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🎓 Courses</h3>
+            <p>Explore various engineering programs.</p>
+        </div>
+
+        <div class="card">
+            <h3>💡 Innovation</h3>
+            <p>Develop skills through projects and technology.</p>
+        </div>
+
+        <div class="card">
+            <h3>🏆 Activities</h3>
+            <p>Participate in clubs, events and competitions.</p>
+        </div>
+
     </div>
 
     <footer>
