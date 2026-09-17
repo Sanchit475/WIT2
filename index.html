@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>UIET College Website</title>
+    <title>UIET - College Website</title>
 
     <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
 
     <!-- Internal CSS -->
     <style>
-        .welcome {
+        .hero {
             text-align: center;
-            padding: 40px;
-            background-color: #e6fffa;
+            padding: 60px 20px;
+            background: linear-gradient(135deg, #172554, #312e81);
+            color: white;
         }
 
-        .welcome h2 {
-            color: #0f766e;
-            font-size: 30px;
+        .hero h2 {
+            font-size: 40px;
+            margin: 10px;
+        }
+
+        .hero p {
+            font-size: 18px;
         }
 
         .cards {
             display: flex;
             justify-content: center;
-            gap: 20px;
-            padding: 30px;
+            gap: 25px;
+            padding: 40px 20px;
         }
 
         .card {
+            width: 220px;
+            padding: 25px;
             background-color: white;
-            padding: 20px;
-            width: 200px;
+            border-radius: 15px;
             text-align: center;
-            border-radius: 12px;
         }
     </style>
 </head>
@@ -39,59 +44,80 @@
 <body>
 
     <header>
-        <h1>UIET, Kurukshetra University</h1>
-        <p>Institute of Engineering and Technology</p>
+        <h1>UIET</h1>
+        <p>Kurukshetra University</p>
     </header>
 
     <nav>
         <a href="#">Home</a>
         <a href="#">About</a>
-        <a href="#">Courses</a>
+        <a href="#">Academics</a>
+        <a href="#">Campus</a>
         <a href="#">Contact</a>
     </nav>
 
-    <section class="welcome">
-        <h2>Welcome to UIET</h2>
+    <section class="hero">
 
-        <!-- Inline CSS -->
-        <p style="color: #f97316; font-size: 18px;">
-            Empowering Students Through Technology & Innovation
-        </p>
+        <p>WELCOME TO</p>
+
+        <h2>University Institute of<br>Engineering & Technology</h2>
 
         <p>
-            UIET provides quality education, technical knowledge
-            and opportunities for students to build a successful future.
+            Learn. Innovate. Lead.
         </p>
 
         <!-- Inline CSS -->
-        <button style="background-color: #f97316; color: white; border: none;
-                       padding: 12px 25px; border-radius: 20px;">
-            Explore More
+        <button style="background-color:#f59e0b; color:white;
+        border:0; padding:13px 28px; border-radius:25px;
+        font-size:16px;">
+            Discover UIET
         </button>
+
     </section>
 
-    <div class="cards">
+    <section class="cards">
 
         <div class="card">
-            <h3>🎓 Courses</h3>
-            <p>Explore various engineering programs.</p>
+            <h2>🎓</h2>
+            <h3>Quality Education</h3>
+            <p>Build strong technical and professional skills.</p>
         </div>
 
         <div class="card">
-            <h3>💡 Innovation</h3>
-            <p>Develop skills through projects and technology.</p>
+            <h2>💻</h2>
+            <h3>Technology</h3>
+            <p>Explore modern technologies and innovation.</p>
         </div>
 
         <div class="card">
-            <h3>🏆 Activities</h3>
-            <p>Participate in clubs, events and competitions.</p>
+            <h2>🚀</h2>
+            <h3>Future Ready</h3>
+            <p>Prepare yourself for a successful career.</p>
         </div>
 
+    </section>
+
+    <div class="stats">
+        <div>
+            <h2>20+</h2>
+            <p>Years of Excellence</p>
+        </div>
+
+        <div>
+            <h2>10+</h2>
+            <p>Engineering Programs</p>
+        </div>
+
+        <div>
+            <h2>1000+</h2>
+            <p>Students</p>
+        </div>
     </div>
 
     <footer>
-        <p>© 2026 UIET, Kurukshetra University</p>
+        <h3>UIET, Kurukshetra University</h3>
+        <p>Innovation • Knowledge • Excellence</p>
     </footer>
 
 </body>
-</html>
+</html>          
